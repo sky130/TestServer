@@ -27,7 +27,6 @@ jobs:
         npm install multer
         npm install sqlite3
         npm install app-info-parser
-        npm ci
 
     - name: Build and test
       run: |
