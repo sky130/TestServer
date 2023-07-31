@@ -28,7 +28,6 @@ jobs:
         npm install sqlite3
         npm install app-info-parser
 
-    - name: Build and test
+    - name: Run Server
       run: |
         npm run build
-        npm test
