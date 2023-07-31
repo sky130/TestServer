@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>文件上传</title>
+</head>
+
+<body>
+    <h1>文件上传</h1>
+    <form action="/api/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="text" name="author" placeholder="作者名">
+        <button type="submit">上传</button>
+    </form>
+</body>
+
+</html>
