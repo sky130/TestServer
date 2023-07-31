@@ -2,11 +2,11 @@
   "name": "appserver",
   "version": "1.0.0",
   "description": "test",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node server.js"
   },
-  "author": "",
+  "author": "sky233",
   "license": "ISC",
   "dependencies": {
     "app-info-parser": "^1.1.5",
