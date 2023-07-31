@@ -20,9 +20,14 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: '14'
-
+    
     - name: Install dependencies
-      run: npm ci
+      run: |
+        npm install express
+        npm install multer
+        npm install sqlite3
+        npm install app-info-parser
+        npm ci
 
     - name: Build and test
       run: |
