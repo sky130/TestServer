@@ -30,4 +30,4 @@ jobs:
 
     - name: Run Server
       run: |
-        npm run build
+        npm -v
